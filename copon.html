@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>copon/discount</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <h2 class="text-4xl text-center text-orange text-amber-800">Shoping cart</h2>
+    </header>
+    <!-- copon section  -->
+    <main>
+        <section class="w-9/12 mx-auto mb-16 bg-green-400  m-16  rounded p-16">
+            <h2 class="text-4xl text-center text-orange text-amber-800 mb-10">Order details</h2>
+            <div class=" grid grid-cols-2">
+                <div class="">
+                    <input class=" block w-9/12 gap-3 my-2 p-1 rounded" type="text" name="" id="copon-code" placeholder="Enter copon nambar for discount">
+                    <button id="btn-apply" class="text-gray-100 bg-sky-600 hover:bg-sky-400  my-1 p-3 rounded">Apply</button>
+                </div>
+                <div class="">
+                    <h1 class="text-xl">Your total order Amaount <span id="total-cost">1000</span> Tk</h1>
+                    <button class="text-gray-100 bg-yellow-600 hover:bg-yellow-400  my-1 p-3 rounded">Pay now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="utlites.js"></script>
+<script src="copon.js"></script>
+</body>
+</html>
